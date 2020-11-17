@@ -45,6 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         style: TextStyle(fontWeight: FontWeight.w500),
                       ),
                       onTap: (){
+                        
                         Navigator.of(context).pushNamed(RegisterScreen.routeName);
                       },
                     )
